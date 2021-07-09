@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    padding-top: 800px;
+}
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 150px;
+    border-style: double;
+    border-width: 10px;
+    border-color: saddlebrown;
+}
+
+#welcome  {
+    position: absolute;
+    overflow: hidden;
+    font-family: calibri;
+    height: 800px;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background: linear-gradient(cyan 0%, blue 100%);
+    display: table;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    z-index: 9;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 42px;
+    text-align: center;
+    font-family: calibri;
+    background-color: #9ffcd9;
+}
+#start {
+    font-size: 30px;
+    line-height: 1.2;
+    color: white;
+}
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: calibri;
+}
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: calibri;
+    color: white;
+}
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+    font-family: calibri;
+    font-weight: 600;
+}
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.Menu {
+    z-index: 10;
+    right: 30px;
+    list-style: none;
+    font-family: Calibri;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: bold;
+}
+.links:hover {
+    background-color: darkcyan;
+    color: white;
+}
